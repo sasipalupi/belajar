@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.article {
+	width: 70%;
+}
+
+.sidemenu {
+	width: 30%;
+}
