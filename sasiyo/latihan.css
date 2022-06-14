@@ -1,5 +1,9 @@
 body{
-  background-color:lavenderblush;
+  background-color       : lavenderblush;
+  background-image       : url("../download.jpeg");
+  background-repeat      : no-repeat;
+  background-attachment  : fixed;
+  background-position    : right;
 }
 
 #satu{
