@@ -1,19 +1,128 @@
+/* 
+  biar lebih singkat bisa menggunakan 
+    background : lavenderblush url("../download.jpeg") no-repeat fixed right;
+*/
 body{
   background-color       : lavenderblush;
   background-image       : url("../download.jpeg");
   background-repeat      : no-repeat;
   background-attachment  : fixed;
-  background-position    : right;
+  background-position    : right bottom;
+  font-family            : fantasy;
 }
 
+/*ini isinya h2 dan h4*/
 #satu{
-  background  :lightpink; 
-  color       :darkred;
-  font-size   :30px;
+  background      : lightpink; 
+  color           : darkred;
+  font-size       : 30px;
+  text-align      : center;
+  text-decoration : underline;
 }
 
 #dua{
-  background  :lightblue;
-  color       :darkblue;
-  font-size   :20px;
+  background  : lightblue;
+  color       : darkblue;
+  font-size   : 20px;
+  text-align  : right;
+}
+
+/*ini isinya paragraf*/
+/*hover*/
+h3:hover {
+  color: hotpink;
+}
+
+#ptxt{
+  text-align  : justify;
+  text-indent : 20px;
+  font-size   : 12;
+  font-weight : lighter;
+}
+
+#prandom{
+  text-align    : justify;
+  text-indent   : 20px;
+  word-spacing  : 5px;
+  max-width     : 50%;
+  max-height    : 200px;
+  /*visibility    : hidden;*/
+  /*display     : none;*/
+}
+
+/*ini isinya link pojok kiri atas*/
+.bareng{
+  display        : inline-block;
+  /*width        : 100px;
+  height         : 50px;*/
+  text-align     : center;
+  text-decoration: none;
+  margin         : 0 50px 0 50px;
+  border         : 3px solid grey;
+  padding        : 10px;
+  position       : relative;
+  top            : 335px;
+  left           : 20px;
+}
+/*pertama*/
+#pertama{
+  color     : royalblue;
+}
+#pertama:link{
+  background: lightpink;
+}
+#pertama:visited{
+  background: lightcoral;
+}
+#pertama:hover{
+  background: palevioletred;
+}
+#pertama:active{
+  background: darksalmon;
+}
+/*kedua*/
+#kedua{
+  color     : hotpink;
+}
+#kedua:link {
+  background: lightblue;
+}
+#kedua:visited {
+  background: lightcyan;
+}
+#kedua:hover {
+  background: lightskyblue;
+}
+#kedua:active {
+  background: lightslategray;
+}
+
+/*float*/
+img{
+  float        : left;
+  margin-right : 20px;
+}
+
+/*clear float*/
+#txt{
+  clear      : both;
+  margin-top : 250px;
+}
+
+ul, ol, dl{
+  float   : left;
+  margin  : 0px;
+  padding : 0px;
+  width   : 33%;
+}
+
+input:focus{
+  background:lightblue;
+}
+textarea:focus{
+  background:lightpink;
+}
+
+#cr{
+  text-align: right;
 }
